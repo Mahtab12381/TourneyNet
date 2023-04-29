@@ -12,3 +12,17 @@ C:\Users\mahta\Desktop\onk new\TourneyNet\DAL\obj\Debug\DAL.csproj.CoreCompileIn
 C:\Users\mahta\Desktop\onk new\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\mahta\Desktop\onk new\TourneyNet\DAL\obj\Debug\DAL.dll
 C:\Users\mahta\Desktop\onk new\TourneyNet\DAL\obj\Debug\DAL.pdb
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\DAL.dll.config
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\DAL.dll
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\DAL.pdb
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\EntityFramework.dll
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\EntityFramework.xml
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.playerAdded.resources
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.dll
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.pdb
