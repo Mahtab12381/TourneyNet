@@ -26,3 +26,17 @@ D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.CoreCompileIn
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.dll
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.pdb
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\DAL.dll.config
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\DAL.dll
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\DAL.pdb
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\EntityFramework.dll
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\EntityFramework.xml
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.playerAdded.resources
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.dll
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.pdb
