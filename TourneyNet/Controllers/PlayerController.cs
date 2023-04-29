@@ -100,5 +100,20 @@ namespace TourneyNet.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
             }
         }
+
+        [HttpPost]
+        [Route("api/players/delete/{Id}")]
+        public HttpResponseMessage fghfgh(int Id)
+        {
+            try
+            {
+                var data = PlayerService.Delete(Id);
+                return Request.CreateResponse(HttpStatusCode.OK, data);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.BadRequest, ex);
+            }
+        }
     }
 }
