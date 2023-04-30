@@ -72,3 +72,5 @@ E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\DAL\obj\Debug\DAL.pdb
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\DAL\obj\Debug\DAL.Migrations.FanPost_Added.resources
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\DAL\obj\Debug\DAL.Migrations.payment.resources
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\DAL\obj\Debug\DAL.Migrations.Ranking.resources
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\DAL\obj\Debug\DAL.Migrations.tournament.resources

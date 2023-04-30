@@ -69,17 +69,29 @@
     <Compile Include="Migrations\202304301556259_payment.designer.cs">
       <DependentUpon>202304301556259_payment.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304301943574_Ranking.cs" />
+    <Compile Include="Migrations\202304301943574_Ranking.designer.cs">
+      <DependentUpon>202304301943574_Ranking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202304302230307_tournament.cs" />
+    <Compile Include="Migrations\202304302230307_tournament.designer.cs">
+      <DependentUpon>202304302230307_tournament.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\FanPost.cs" />
     <Compile Include="Model\Participant.cs" />
     <Compile Include="Model\Payment.cs" />
     <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\Ranking.cs" />
+    <Compile Include="Model\Tournament.cs" />
     <Compile Include="Repos\FanPostRepo.cs" />
     <Compile Include="Repos\FanRepo.cs" />
     <Compile Include="Repos\PaymentRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
+    <Compile Include="Repos\RankingRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\TournamentRepo.cs" />
     <Compile Include="TourneyNetDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -99,6 +111,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304301556259_payment.resx">
       <DependentUpon>202304301556259_payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304301943574_Ranking.resx">
+      <DependentUpon>202304301943574_Ranking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304302230307_tournament.resx">
+      <DependentUpon>202304302230307_tournament.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

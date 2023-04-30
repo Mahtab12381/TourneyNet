@@ -32,6 +32,16 @@ namespace DAL
             return new PaymentRepo();
         }
 
+        public static IRepo<Ranking, int, Ranking> RankingData()
+        {
+            return new RankingRepo();
+        }
+
+        public static IRepo<Tournament, int, Tournament> TournamentData()
+        {
+            return new TournamentRepo();
+        }
+
 
     }
 }
