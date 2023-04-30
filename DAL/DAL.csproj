@@ -58,6 +58,7 @@
       <DependentUpon>202304291606256_playerAdded.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\Player.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
