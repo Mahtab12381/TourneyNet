@@ -54,3 +54,17 @@ E:\.NET PROJECT\TourneyNet\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 E:\.NET PROJECT\TourneyNet\BLL\obj\Debug\BLL.csproj.CopyComplete
 E:\.NET PROJECT\TourneyNet\BLL\obj\Debug\BLL.dll
 E:\.NET PROJECT\TourneyNet\BLL\obj\Debug\BLL.pdb
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\BLL.dll
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\BLL.pdb
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\AutoMapper.dll
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\DAL.dll
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\EntityFramework.dll
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\DAL.pdb
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\DAL.dll.config
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\AutoMapper.xml
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\bin\Debug\EntityFramework.xml
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\obj\Debug\BLL.dll
+E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\obj\Debug\BLL.pdb
