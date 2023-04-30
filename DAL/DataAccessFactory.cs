@@ -22,6 +22,11 @@ namespace DAL
             return new FanRepo();
         }
 
+        public static IRepo<FanPost, int, FanPost> FanPostData()
+        {
+            return new FanPostRepo();
+        }
+
 
     }
 }

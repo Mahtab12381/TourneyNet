@@ -61,10 +61,16 @@
     <Compile Include="Migrations\202304301047487_clear.designer.cs">
       <DependentUpon>202304301047487_clear.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304301425068_FanPost_Added.cs" />
+    <Compile Include="Migrations\202304301425068_FanPost_Added.designer.cs">
+      <DependentUpon>202304301425068_FanPost_Added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Fan.cs" />
+    <Compile Include="Model\FanPost.cs" />
     <Compile Include="Model\Participant.cs" />
     <Compile Include="Model\Player.cs" />
+    <Compile Include="Repos\FanPostRepo.cs" />
     <Compile Include="Repos\FanRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
@@ -81,6 +87,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304301047487_clear.resx">
       <DependentUpon>202304301047487_clear.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304301425068_FanPost_Added.resx">
+      <DependentUpon>202304301425068_FanPost_Added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
