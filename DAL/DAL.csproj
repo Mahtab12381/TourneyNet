@@ -57,10 +57,15 @@
     <Compile Include="Migrations\202304291606256_playerAdded.designer.cs">
       <DependentUpon>202304291606256_playerAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304301047487_clear.cs" />
+    <Compile Include="Migrations\202304301047487_clear.designer.cs">
+      <DependentUpon>202304301047487_clear.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Fan.cs" />
-    <Compile Include="Model\Participants.cs" />
+    <Compile Include="Model\Participant.cs" />
     <Compile Include="Model\Player.cs" />
+    <Compile Include="Repos\FanRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="TourneyNetDbContext.cs" />
@@ -73,6 +78,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202304291606256_playerAdded.resx">
       <DependentUpon>202304291606256_playerAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304301047487_clear.resx">
+      <DependentUpon>202304301047487_clear.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

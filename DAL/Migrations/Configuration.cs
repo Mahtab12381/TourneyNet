@@ -28,6 +28,18 @@
                     age =random.Next(18, 30),
                 });
             }
+
+
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Fans.AddOrUpdate(new Model.Fan
+                {
+                    
+                    Bio = "I am _______",
+                    ContactInformation = "+08801614******"
+                    
+                });
+            }
         }
     }
 }

@@ -15,5 +15,13 @@ namespace DAL
         {
             return new PlayerRepo();
         }
+
+
+        public static IRepo<Fan, int, Fan> FanData()
+        {
+            return new FanRepo();
+        }
+
+
     }
 }

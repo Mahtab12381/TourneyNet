@@ -1,20 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DAL.Model
+namespace BLL.DTOs
 {
-    public class Fan
+    public class FanDTO
     {
-        [Key]
-        public int Id { get; set; }
-        [Required]
-        public string Bio { get; set; }
-        [Required]
-        public string ContactInformation { get; set; }
 
+        public int Id { get; set; }
+        
+        public string Bio { get; set; }
+      
+        public string ContactInformation { get; set; }
     }
 }

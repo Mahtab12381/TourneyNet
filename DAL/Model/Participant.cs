@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Model
 {
-    public class Participants
+    public class Participant
     {
         [Key]
         public int participant_id { get; set; }
