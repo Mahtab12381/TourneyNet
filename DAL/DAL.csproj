@@ -61,15 +61,26 @@
     <Compile Include="Migrations\202304301047487_clear.designer.cs">
       <DependentUpon>202304301047487_clear.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\202304301425527_RegistrationAdded.cs" />
     <Compile Include="Migrations\202304301425527_RegistrationAdded.designer.cs">
       <DependentUpon>202304301425527_RegistrationAdded.cs</DependentUpon>
+=======
+    <Compile Include="Migrations\202304301425068_FanPost_Added.cs" />
+    <Compile Include="Migrations\202304301425068_FanPost_Added.designer.cs">
+      <DependentUpon>202304301425068_FanPost_Added.cs</DependentUpon>
+>>>>>>> c306a5ddb04bf0e36e8071b942192d7c993a20be
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Fan.cs" />
+    <Compile Include="Model\FanPost.cs" />
     <Compile Include="Model\Participant.cs" />
     <Compile Include="Model\Player.cs" />
+<<<<<<< HEAD
     <Compile Include="Model\Registration.cs" />
+=======
+    <Compile Include="Repos\FanPostRepo.cs" />
+>>>>>>> c306a5ddb04bf0e36e8071b942192d7c993a20be
     <Compile Include="Repos\FanRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\RegistrationRepo.cs" />
@@ -88,8 +99,13 @@
     <EmbeddedResource Include="Migrations\202304301047487_clear.resx">
       <DependentUpon>202304301047487_clear.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\202304301425527_RegistrationAdded.resx">
       <DependentUpon>202304301425527_RegistrationAdded.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Migrations\202304301425068_FanPost_Added.resx">
+      <DependentUpon>202304301425068_FanPost_Added.cs</DependentUpon>
+>>>>>>> c306a5ddb04bf0e36e8071b942192d7c993a20be
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

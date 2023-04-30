@@ -22,9 +22,15 @@ namespace DAL
             return new FanRepo();
         }
 
+<<<<<<< HEAD
         public static IRepo<Registration, int, Registration> RegistrationData()
         {
             return new RegistrationRepo();
+=======
+        public static IRepo<FanPost, int, FanPost> FanPostData()
+        {
+            return new FanPostRepo();
+>>>>>>> c306a5ddb04bf0e36e8071b942192d7c993a20be
         }
 
 

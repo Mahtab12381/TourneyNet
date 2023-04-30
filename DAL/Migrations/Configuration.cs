@@ -41,6 +41,7 @@
                 });
             }
 
+<<<<<<< HEAD
 
             for (int i = 1; i <= 20; i++)
             {
@@ -53,6 +54,15 @@
                     Email = "____@gmail.com",
                     Password = "Password",
                     Type = "Organizer"
+=======
+            for (int i = 1; i <= 20; i++)
+            {
+                context.FanPosts.AddOrUpdate(new Model.FanPost
+                {
+
+                    PostContent = "This is a fan post!"+i,
+                    PostDate = DateTime.Now,
+>>>>>>> c306a5ddb04bf0e36e8071b942192d7c993a20be
 
                 });
             }
