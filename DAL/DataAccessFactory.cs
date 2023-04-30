@@ -27,6 +27,11 @@ namespace DAL
             return new FanPostRepo();
         }
 
+        public static IRepo<Payment, int, Payment> PaymentData()
+        {
+            return new PaymentRepo();
+        }
+
 
     }
 }

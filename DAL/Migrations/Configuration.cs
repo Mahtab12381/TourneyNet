@@ -51,6 +51,17 @@
 
                 });
             }
+
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Payments.AddOrUpdate(new Model.Payment
+                {
+
+                    amount_paid = 400+(i*2),
+                    payment_date = DateTime.Now,
+
+                });
+            }
         }
     }
 }
