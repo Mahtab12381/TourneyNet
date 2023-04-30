@@ -65,13 +65,19 @@
     <Compile Include="Migrations\202304301425068_FanPost_Added.designer.cs">
       <DependentUpon>202304301425068_FanPost_Added.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202304301556259_payment.cs" />
+    <Compile Include="Migrations\202304301556259_payment.designer.cs">
+      <DependentUpon>202304301556259_payment.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\FanPost.cs" />
     <Compile Include="Model\Participant.cs" />
+    <Compile Include="Model\Payment.cs" />
     <Compile Include="Model\Player.cs" />
     <Compile Include="Repos\FanPostRepo.cs" />
     <Compile Include="Repos\FanRepo.cs" />
+    <Compile Include="Repos\PaymentRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="TourneyNetDbContext.cs" />
@@ -90,6 +96,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304301425068_FanPost_Added.resx">
       <DependentUpon>202304301425068_FanPost_Added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202304301556259_payment.resx">
+      <DependentUpon>202304301556259_payment.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

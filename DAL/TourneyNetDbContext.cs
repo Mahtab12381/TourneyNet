@@ -16,5 +16,6 @@ namespace DAL
 
         public DbSet<Participant> Participants { get; set; }
         public DbSet<FanPost> FanPosts { get; set; }
+        public DbSet<Payment> Payments { get; set; }
     }
 }
