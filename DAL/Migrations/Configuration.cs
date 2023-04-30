@@ -18,14 +18,14 @@
 
             //  You can use the DbSet<T>.AddOrUpdate() helper extension method
             //  to avoid creating duplicate seed data.
-            Random random =new Random();
-            for(int i=1; i<=20; i++)
+            Random random = new Random();
+            for (int i = 1; i <= 20; i++)
             {
                 context.Players.AddOrUpdate(new Model.Player
                 {
                     gender = "male",
                     nationality = "Bangladeshi",
-                    age =random.Next(18, 30),
+                    age = random.Next(18, 30),
                 });
             }
 
@@ -34,10 +34,10 @@
             {
                 context.Fans.AddOrUpdate(new Model.Fan
                 {
-                    
+
                     Bio = "I am _______",
                     ContactInformation = "+08801614******"
-                    
+
                 });
             }
 
@@ -46,7 +46,7 @@
                 context.FanPosts.AddOrUpdate(new Model.FanPost
                 {
 
-                    PostContent = "This is a fan post!"+i,
+                    PostContent = "This is a fan post!" + i,
                     PostDate = DateTime.Now,
 
                 });
@@ -57,8 +57,35 @@
                 context.Payments.AddOrUpdate(new Model.Payment
                 {
 
-                    amount_paid = 400+(i*2),
+                    amount_paid = 400 + (i * 2),
                     payment_date = DateTime.Now,
+
+                });
+            }
+
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Rankings.AddOrUpdate(new Model.Ranking
+                {
+
+                    rank = 1 + i,
+
+                });
+
+            }
+
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Tournaments.AddOrUpdate(new Model.Tournament
+                {
+
+                    tournament_name = "E_Pulsar",
+                    tournament_description = "**************",
+                    tournament_rules = "**********aaabdac",
+                    end_date = DateTime.Now,
+                    start_date = DateTime.Now,
+                    registration_deadline = DateTime.Now,
+
 
                 });
             }
