@@ -22,6 +22,11 @@ namespace DAL
             return new FanRepo();
         }
 
+        public static IRepo<Registration, int, Registration> RegistrationData()
+        {
+            return new RegistrationRepo();
+        }
+
 
     }
 }

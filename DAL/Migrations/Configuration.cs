@@ -40,6 +40,22 @@
                     
                 });
             }
+
+
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Registrations.AddOrUpdate(new Model.Registration
+                {
+
+                    FirstName = " Person-"+i,
+                    LastName = "---",
+                    UserName = "user-"+i,
+                    Email = "____@gmail.com",
+                    Password = "Password",
+                    Type = "Organizer"
+
+                });
+            }
         }
     }
 }

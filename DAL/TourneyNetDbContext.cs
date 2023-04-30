@@ -15,5 +15,7 @@ namespace DAL
         public DbSet<Fan> Fans { get; set; }
 
         public DbSet<Participant> Participants { get; set; }
+
+        public DbSet<Registration> Registrations { get; set; }
     }
 }

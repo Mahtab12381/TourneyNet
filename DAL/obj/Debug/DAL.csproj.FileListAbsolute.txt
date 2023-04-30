@@ -55,3 +55,4 @@ E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
 E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.dll
 E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.pdb
 E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.clear.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.RegistrationAdded.resources
