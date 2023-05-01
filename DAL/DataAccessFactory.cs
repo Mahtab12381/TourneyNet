@@ -42,6 +42,16 @@ namespace DAL
             return new TournamentRepo();
         }
 
+        public static IRepo<Registration, int, Registration> RegistrationData()
+        {
+            return new RegistrationRepo();
+        }
+
+        public static IRepo<Organizer, int, Organizer> OrganizerData()
+        {
+            return new OrganizerRepo();
+        }
+
 
     }
 }

@@ -89,6 +89,32 @@
 
                 });
             }
+
+
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Registrations.AddOrUpdate(new Model.Registration
+                {
+                    FirstName = "MR.",
+                    LastName = "___",
+                    UserName= "user-"+i,
+                    Email ="____@gmail.com",
+                    Password = "******",
+                    Type ="Player"
+                });
+            }
+
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Organizers.AddOrUpdate(new Model.Organizer
+                {
+
+                    Organizer_Description = "This is ______"
+                   
+
+                });
+            }
+
         }
     }
 }
