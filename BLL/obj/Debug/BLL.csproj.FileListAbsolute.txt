@@ -68,3 +68,17 @@ E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\obj\Debug\BLL.csproj.CopyComplete
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\obj\Debug\BLL.dll
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\BLL\obj\Debug\BLL.pdb
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\BLL.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\BLL.pdb
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\AutoMapper.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\DAL.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\EntityFramework.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\DAL.pdb
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\DAL.dll.config
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\AutoMapper.xml
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\bin\Debug\EntityFramework.xml
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.pdb

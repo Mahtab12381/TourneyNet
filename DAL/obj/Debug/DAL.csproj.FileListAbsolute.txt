@@ -74,3 +74,23 @@ E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\DAL\obj\Debug\DAL.Migrations.payment.resources
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\DAL\obj\Debug\DAL.Migrations.Ranking.resources
 E:\Study\02. Current semesters\Spring 23\2. Final\ADVANCED PROGRAMMING WITH .NET\Final_project\TourneyNet\DAL\obj\Debug\DAL.Migrations.tournament.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\bin\Debug\DAL.dll.config
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\bin\Debug\DAL.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\bin\Debug\DAL.pdb
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\bin\Debug\EntityFramework.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\bin\Debug\EntityFramework.xml
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.playerAdded.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.clear.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.FanPost_Added.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.payment.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.Ranking.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.tournament.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.dll
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.pdb
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.StreamTableCreated.resources
