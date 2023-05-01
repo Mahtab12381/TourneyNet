@@ -11,9 +11,7 @@ namespace DAL
     public class TourneyNetDbContext:DbContext
     {
         public DbSet<Player> Players { get; set; }
-
         public DbSet<Fan> Fans { get; set; }
-
         public DbSet<Participant> Participants { get; set; }
         public DbSet<FanPost> FanPosts { get; set; }
         public DbSet<Registration> Registrations { get; set; }
@@ -22,5 +20,7 @@ namespace DAL
         public DbSet<Tournament> Tournaments { get; set; }
         public DbSet<Stream> Streams { get; set; }
         public DbSet<Organizer> Organizers { get; set; }
+        public DbSet<SocialMediaSharing> SocialMediaSharings { get; set; }
+        public DbSet<Event> Events { get; set; }
     }
 }

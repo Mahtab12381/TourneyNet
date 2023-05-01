@@ -53,5 +53,17 @@ namespace DAL
         }
 
 
+        public static IRepo<Event, int, Event> EventData()
+        {
+            return new EventRepo();
+        }
+        public static IRepo<Participant, int, Participant> ParticipantData()
+        {
+            return new ParticipantRepo();
+        }
+        public static IRepo<SocialMediaSharing, int, SocialMediaSharing> SocialMediaSharingData()
+        {
+            return new SocialMediaSharingRepo();
+        }
     }
 }

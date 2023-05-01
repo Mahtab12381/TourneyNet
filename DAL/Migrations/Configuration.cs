@@ -114,6 +114,42 @@
 
                 });
             }
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Participants.AddOrUpdate(new Model.Participant
+                {
+
+                    tournament_id = i,
+                    player_id = i + 1000,
+                    team_name = "GCxVenom",
+                    team_logo = "logo"
+                });
+            }
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Events.AddOrUpdate(new Model.Event
+                {
+                    organizer_id = i,
+                    event_name = "name",
+                    event_description = "description",
+                    event_start_date = DateTime.Now,
+                    event_end_date = DateTime.Now,
+                    location = "Location",
+                    rules = "rules",
+                    prizes = "prizes",
+                    registration_deadline = DateTime.Now
+                });
+            }
+            for (int i = 1; i <= 20; i++)
+            {
+                context.SocialMediaSharings.AddOrUpdate(new Model.SocialMediaSharing
+                {
+                    event_id = i,
+                    share_date = DateTime.Now,
+                    share_description = "description",
+                    platform = "Twitch"
+                });
+            }
 
         }
     }

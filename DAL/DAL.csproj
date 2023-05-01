@@ -89,7 +89,12 @@
     <Compile Include="Migrations\202305010821454_OrganizerTableAdded.designer.cs">
       <DependentUpon>202305010821454_OrganizerTableAdded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305011713548_even_part_sms_added.cs" />
+    <Compile Include="Migrations\202305011713548_even_part_sms_added.designer.cs">
+      <DependentUpon>202305011713548_even_part_sms_added.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\FanPost.cs" />
     <Compile Include="Model\Organizer.cs" />
@@ -98,16 +103,20 @@
     <Compile Include="Model\Player.cs" />
     <Compile Include="Model\Ranking.cs" />
     <Compile Include="Model\Registration.cs" />
+    <Compile Include="Model\SocialMediaSharing.cs" />
     <Compile Include="Model\Stream.cs" />
     <Compile Include="Model\Tournament.cs" />
+    <Compile Include="Repos\EventRepo.cs" />
     <Compile Include="Repos\FanPostRepo.cs" />
     <Compile Include="Repos\FanRepo.cs" />
     <Compile Include="Repos\OrganizerRepo.cs" />
+    <Compile Include="Repos\ParticipantRepo.cs" />
     <Compile Include="Repos\PaymentRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\RankingRepo.cs" />
     <Compile Include="Repos\RegistrationRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
+    <Compile Include="Repos\SocialMediaSharingRepo.cs" />
     <Compile Include="Repos\TournamentRepo.cs" />
     <Compile Include="TourneyNetDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -143,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305010821454_OrganizerTableAdded.resx">
       <DependentUpon>202305010821454_OrganizerTableAdded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305011713548_even_part_sms_added.resx">
+      <DependentUpon>202305011713548_even_part_sms_added.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

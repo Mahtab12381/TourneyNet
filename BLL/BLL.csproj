@@ -45,22 +45,28 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="DTOs\EventDTO.cs" />
     <Compile Include="DTOs\FanDTO.cs" />
     <Compile Include="DTOs\FanPostDTO.cs" />
     <Compile Include="DTOs\OrganizerDTO.cs" />
+    <Compile Include="DTOs\ParticipantDTO.cs" />
     <Compile Include="DTOs\PaymentDTO.cs" />
     <Compile Include="DTOs\PlayerDTO.cs" />
     <Compile Include="DTOs\RankingDTO.cs" />
     <Compile Include="DTOs\RegistrationDTO.cs" />
+    <Compile Include="DTOs\SocialMediaSharingDTO.cs" />
     <Compile Include="DTOs\TournamentDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\EventService.cs" />
     <Compile Include="Services\FanPostService.cs" />
     <Compile Include="Services\FanService.cs" />
     <Compile Include="Services\OrganizerService.cs" />
+    <Compile Include="Services\ParticipantService.cs" />
     <Compile Include="Services\PaymentService.cs" />
     <Compile Include="Services\PlayerService.cs" />
     <Compile Include="Services\RankingService.cs" />
     <Compile Include="Services\RegistrationService.cs" />
+    <Compile Include="Services\SocialMediaSharingService.cs" />
     <Compile Include="Services\TournamentService.cs" />
   </ItemGroup>
   <ItemGroup>
