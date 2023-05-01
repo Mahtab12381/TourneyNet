@@ -16,9 +16,11 @@ namespace DAL
 
         public DbSet<Participant> Participants { get; set; }
         public DbSet<FanPost> FanPosts { get; set; }
+        public DbSet<Registration> Registrations { get; set; }
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Ranking> Rankings { get; set; }
         public DbSet<Tournament> Tournaments { get; set; }
         public DbSet<Stream> Streams { get; set; }
+        public DbSet<Organizer> Organizers { get; set; }
     }
 }

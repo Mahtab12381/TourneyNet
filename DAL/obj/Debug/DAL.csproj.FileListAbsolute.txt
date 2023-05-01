@@ -94,3 +94,10 @@ C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComp
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.dll
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.pdb
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.StreamTableCreated.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.FanPost_Added.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.payment.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.Ranking.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.tournament.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.StreamTableCreated.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.RegistrationAdded.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources
