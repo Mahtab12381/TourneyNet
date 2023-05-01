@@ -19,5 +19,6 @@ namespace DAL
         public DbSet<Payment> Payments { get; set; }
         public DbSet<Ranking> Rankings { get; set; }
         public DbSet<Tournament> Tournaments { get; set; }
+        public DbSet<Stream> Streams { get; set; }
     }
 }

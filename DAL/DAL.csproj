@@ -77,6 +77,10 @@
     <Compile Include="Migrations\202304302230307_tournament.designer.cs">
       <DependentUpon>202304302230307_tournament.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305010041194_StreamTableCreated.cs" />
+    <Compile Include="Migrations\202305010041194_StreamTableCreated.designer.cs">
+      <DependentUpon>202305010041194_StreamTableCreated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\FanPost.cs" />
@@ -84,6 +88,7 @@
     <Compile Include="Model\Payment.cs" />
     <Compile Include="Model\Player.cs" />
     <Compile Include="Model\Ranking.cs" />
+    <Compile Include="Model\Stream.cs" />
     <Compile Include="Model\Tournament.cs" />
     <Compile Include="Repos\FanPostRepo.cs" />
     <Compile Include="Repos\FanRepo.cs" />
@@ -117,6 +122,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202304302230307_tournament.resx">
       <DependentUpon>202304302230307_tournament.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305010041194_StreamTableCreated.resx">
+      <DependentUpon>202305010041194_StreamTableCreated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
