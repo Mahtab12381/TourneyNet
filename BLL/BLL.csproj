@@ -52,6 +52,7 @@
     <Compile Include="DTOs\ParticipantDTO.cs" />
     <Compile Include="DTOs\PaymentDTO.cs" />
     <Compile Include="DTOs\PlayerDTO.cs" />
+    <Compile Include="DTOs\PlayerGameDTO.cs" />
     <Compile Include="DTOs\RankingDTO.cs" />
     <Compile Include="DTOs\RegistrationDTO.cs" />
     <Compile Include="DTOs\SocialMediaSharingDTO.cs" />
@@ -63,6 +64,7 @@
     <Compile Include="Services\OrganizerService.cs" />
     <Compile Include="Services\ParticipantService.cs" />
     <Compile Include="Services\PaymentService.cs" />
+    <Compile Include="Services\PlayerGameService.cs" />
     <Compile Include="Services\PlayerService.cs" />
     <Compile Include="Services\RankingService.cs" />
     <Compile Include="Services\RegistrationService.cs" />
