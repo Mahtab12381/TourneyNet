@@ -99,6 +99,7 @@
     <Compile Include="Controllers\ParticipantController.cs" />
     <Compile Include="Controllers\PaymentController.cs" />
     <Compile Include="Controllers\PlayerController.cs" />
+    <Compile Include="Controllers\PlayerGameController.cs" />
     <Compile Include="Controllers\RankingController.cs" />
     <Compile Include="Controllers\RegistrationController.cs" />
     <Compile Include="Controllers\SocialMediaSharingController.cs" />

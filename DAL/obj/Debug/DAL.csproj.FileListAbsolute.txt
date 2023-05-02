@@ -110,3 +110,5 @@ D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.StreamTab
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.RegistrationAdded.resources
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.even_part_sms_added.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.even_part_sms_added.resources
+E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.PlayerGameAdded.resources

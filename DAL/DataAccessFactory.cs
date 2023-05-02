@@ -65,5 +65,10 @@ namespace DAL
         {
             return new SocialMediaSharingRepo();
         }
+
+        public static IRepo<PlayerGame, int, PlayerGame> PlayerGameData()
+        {
+            return new PlayerGameRepo();
+        }
     }
 }

@@ -93,6 +93,10 @@
     <Compile Include="Migrations\202305011713548_even_part_sms_added.designer.cs">
       <DependentUpon>202305011713548_even_part_sms_added.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305021224554_PlayerGameAdded.cs" />
+    <Compile Include="Migrations\202305021224554_PlayerGameAdded.designer.cs">
+      <DependentUpon>202305021224554_PlayerGameAdded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Fan.cs" />
@@ -101,6 +105,7 @@
     <Compile Include="Model\Participant.cs" />
     <Compile Include="Model\Payment.cs" />
     <Compile Include="Model\Player.cs" />
+    <Compile Include="Model\PlayerGame.cs" />
     <Compile Include="Model\Ranking.cs" />
     <Compile Include="Model\Registration.cs" />
     <Compile Include="Model\SocialMediaSharing.cs" />
@@ -112,6 +117,7 @@
     <Compile Include="Repos\OrganizerRepo.cs" />
     <Compile Include="Repos\ParticipantRepo.cs" />
     <Compile Include="Repos\PaymentRepo.cs" />
+    <Compile Include="Repos\PlayerGameRepo.cs" />
     <Compile Include="Repos\PlayerRepo.cs" />
     <Compile Include="Repos\RankingRepo.cs" />
     <Compile Include="Repos\RegistrationRepo.cs" />
@@ -155,6 +161,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305011713548_even_part_sms_added.resx">
       <DependentUpon>202305011713548_even_part_sms_added.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305021224554_PlayerGameAdded.resx">
+      <DependentUpon>202305021224554_PlayerGameAdded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
