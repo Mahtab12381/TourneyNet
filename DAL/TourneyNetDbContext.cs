@@ -1,4 +1,5 @@
 ﻿using DAL.Model;
+using DAL.Repos;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -24,5 +25,6 @@ namespace DAL
         public DbSet<Event> Events { get; set; }
 
         public DbSet<PlayerGame> PlayerGames { get; set; }
+        public DbSet<Token> Tokens { get; set; }
     }
 }
