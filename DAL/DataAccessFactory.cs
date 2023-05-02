@@ -80,5 +80,26 @@ namespace DAL
         {
             return new TokenRepo();
         }
+
+
+
+        public static IRepo<Team, int, Team> TeamData()
+        {
+            return new TeamRepo();
+        }
+        public static IRepo<Match, int, Match> MatchData()
+        {
+            return new MatchRepo();
+        }
+        public static IRepo<TeamCommunication, int, TeamCommunication> TeamCommunicationData()
+        {
+            return new TeamCommunicationRepo();
+        }
+        public static IRepo<Stream, int, Stream> StreamData()
+        {
+            return new StreamRepo();
+        }
+
+
     }
 }
