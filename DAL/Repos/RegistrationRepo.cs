@@ -17,6 +17,12 @@ namespace DAL.Repos
             return false;
             
         }
+        public bool HasExtToken(string Username)
+        {
+            var extToken = (from t in db.Tokens where t.User_id.Equals(Username) select t).SingleOrDefault();
+            if(extToken != null ) return true;
+            return false;
+        }
 
         public Registration Create(Registration obj)
         {

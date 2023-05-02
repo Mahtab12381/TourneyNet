@@ -16,23 +16,33 @@ namespace BLL.Services
         public static TokenDTO Authenticate(string username, string password)
         {
             var res= DataAccessFactory.AuthData().Authenticate(username,password);
+            var extTokenAvailable = DataAccessFactory.AuthData().HasExtToken(username);
+
             if (res)
             {
-                var token = new Token();
-                token.User_id = username;
-                token.Created_at = DateTime.Now;
-                token.Token_key = Guid.NewGuid().ToString();
-                var ret = DataAccessFactory.TokenData().Create(token);
-                if(ret != null)
+                if (!extTokenAvailable)
                 {
-                    var cfg = new MapperConfiguration(c =>
+                    var token = new Token();
+                    token.User_id = username;
+                    token.Created_at = DateTime.Now;
+                    token.Token_key = Guid.NewGuid().ToString();
+                    var ret = DataAccessFactory.TokenData().Create(token);
+                    if (ret != null)
                     {
-                        c.CreateMap<Token, TokenDTO>();
-                    });
-                    var mapper = new Mapper(cfg);
-                    var mapped = mapper.Map<TokenDTO>(ret);
-                    return mapped;
+                        var cfg = new MapperConfiguration(c =>
+                        {
+                            c.CreateMap<Token, TokenDTO>();
+                        });
+                        var mapper = new Mapper(cfg);
+                        var mapped = mapper.Map<TokenDTO>(ret);
+                        return mapped;
+                    }
                 }
+                else
+                {
+
+                }
+              
 
             }
             return null;
