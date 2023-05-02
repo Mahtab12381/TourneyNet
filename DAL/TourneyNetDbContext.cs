@@ -26,5 +26,11 @@ namespace DAL
 
         public DbSet<PlayerGame> PlayerGames { get; set; }
         public DbSet<Token> Tokens { get; set; }
+
+        
+        public DbSet<Team> Teams { get; set; }
+        public DbSet<TeamCommunication> TeamCommunications { get; set; }
+        public DbSet<Match> Matches { get; set; }
+
     }
 }

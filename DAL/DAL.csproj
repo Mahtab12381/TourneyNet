@@ -106,10 +106,15 @@
     <Compile Include="Migrations\202305021912141_playergameAndToken1.designer.cs">
       <DependentUpon>202305021912141_playergameAndToken1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305022309455_TableCreated.cs" />
+    <Compile Include="Migrations\202305022309455_TableCreated.designer.cs">
+      <DependentUpon>202305022309455_TableCreated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\FanPost.cs" />
+    <Compile Include="Model\Match.cs" />
     <Compile Include="Model\Organizer.cs" />
     <Compile Include="Model\Participant.cs" />
     <Compile Include="Model\Payment.cs" />
@@ -119,11 +124,14 @@
     <Compile Include="Model\Registration.cs" />
     <Compile Include="Model\SocialMediaSharing.cs" />
     <Compile Include="Model\Stream.cs" />
+    <Compile Include="Model\Team.cs" />
+    <Compile Include="Model\TeamCommunication.cs" />
     <Compile Include="Model\Token.cs" />
     <Compile Include="Model\Tournament.cs" />
     <Compile Include="Repos\EventRepo.cs" />
     <Compile Include="Repos\FanPostRepo.cs" />
     <Compile Include="Repos\FanRepo.cs" />
+    <Compile Include="Repos\MatchRepo.cs" />
     <Compile Include="Repos\OrganizerRepo.cs" />
     <Compile Include="Repos\ParticipantRepo.cs" />
     <Compile Include="Repos\PaymentRepo.cs" />
@@ -133,6 +141,9 @@
     <Compile Include="Repos\RegistrationRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\SocialMediaSharingRepo.cs" />
+    <Compile Include="Repos\StreamRepo.cs" />
+    <Compile Include="Repos\TeamCommunicationRepo.cs" />
+    <Compile Include="Repos\TeamRepo.cs" />
     <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\TournamentRepo.cs" />
     <Compile Include="TourneyNetDbContext.cs" />
@@ -181,6 +192,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305021912141_playergameAndToken1.resx">
       <DependentUpon>202305021912141_playergameAndToken1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305022309455_TableCreated.resx">
+      <DependentUpon>202305022309455_TableCreated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

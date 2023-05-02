@@ -161,6 +161,16 @@
                     Player_Skill = "Noob"
                 });
             }
+            for (int i = 1; i <= 20; i++)
+            {
+                context.Teams.AddOrUpdate(new Model.Team
+                {
+
+                    Team_name="Bangladesh",
+                    Team_logo="BD_Flag"
+
+                });
+            }
         }
     }
 }
