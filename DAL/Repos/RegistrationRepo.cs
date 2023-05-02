@@ -12,7 +12,7 @@ namespace DAL.Repos
     {
         public bool Authenticate(string username, string password)
         {
-            var data= db.Registrations.FirstOrDefault(u=>u.UserName.Equals(username)&& u.Password.Equals(password));
+            var data = (from d in db.Registrations where d.UserName.Equals(username) && d.Password.Equals(password) select d).SingleOrDefault();
             if(data != null ) return true;
             return false;
             

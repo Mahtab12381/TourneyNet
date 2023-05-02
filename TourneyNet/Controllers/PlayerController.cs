@@ -6,11 +6,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using TourneyNet.Auth;
 
 namespace TourneyNet.Controllers
 {
     public class PlayerController : ApiController
     {
+        [Logged]
         [HttpGet]
         [Route("api/players")]
         public HttpResponseMessage Players()

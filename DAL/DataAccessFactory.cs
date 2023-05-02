@@ -75,5 +75,10 @@ namespace DAL
         {
             return new RegistrationRepo();
         }
+
+        public static IRepo<Token, string, Token> TokenData()
+        {
+            return new TokenRepo();
+        }
     }
 }

@@ -102,6 +102,10 @@
     <Compile Include="Migrations\202305021853192_playergames.designer.cs">
       <DependentUpon>202305021853192_playergames.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305021912141_playergameAndToken1.cs" />
+    <Compile Include="Migrations\202305021912141_playergameAndToken1.designer.cs">
+      <DependentUpon>202305021912141_playergameAndToken1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Fan.cs" />
@@ -129,6 +133,7 @@
     <Compile Include="Repos\RegistrationRepo.cs" />
     <Compile Include="Repos\Repo.cs" />
     <Compile Include="Repos\SocialMediaSharingRepo.cs" />
+    <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\TournamentRepo.cs" />
     <Compile Include="TourneyNetDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -173,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305021853192_playergames.resx">
       <DependentUpon>202305021853192_playergames.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305021912141_playergameAndToken1.resx">
+      <DependentUpon>202305021912141_playergameAndToken1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
