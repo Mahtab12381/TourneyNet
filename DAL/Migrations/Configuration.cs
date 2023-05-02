@@ -151,6 +151,16 @@
                 });
             }
 
+
+            for (int i = 1; i <= 20; i++)
+            {
+                context.PlayerGames.AddOrUpdate(new Model.PlayerGame
+                {
+
+                    Game_Name = "Call Of Duty",
+                    Player_Skill = "Noob"
+                });
+            }
         }
     }
 }

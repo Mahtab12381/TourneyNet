@@ -22,5 +22,7 @@ namespace DAL
         public DbSet<Organizer> Organizers { get; set; }
         public DbSet<SocialMediaSharing> SocialMediaSharings { get; set; }
         public DbSet<Event> Events { get; set; }
+
+        public DbSet<PlayerGame> PlayerGames { get; set; }
     }
 }
