@@ -115,3 +115,10 @@ E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.PlayerGameAdded.resource
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken.resources
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergames.resources
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken1.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.RegistrationAdded.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.even_part_sms_added.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergames.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken1.resources
+C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.TableCreated.resources
