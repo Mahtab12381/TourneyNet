@@ -6,11 +6,14 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using System.Web.UI.WebControls;
+using TourneyNet.Auth;
 using TourneyNet.Model;
 
 namespace TourneyNet.Controllers
 {
+    [EnableCors("*", "*", "*")]
     public class AuthController : ApiController
     {
 
@@ -34,5 +37,22 @@ namespace TourneyNet.Controllers
             }
         }
 
+        [Logged]
+        [HttpGet]
+        [Route("api/logout")]
+        public HttpResponseMessage Logout()
+        {
+            var token = Request.Headers.Authorization.ToString();
+            try
+            {
+                var res = AuthService.Logout(token);
+                return Request.CreateResponse(HttpStatusCode.OK, res);
+            }
+            catch (Exception ex)
+            {
+                return Request.CreateResponse(HttpStatusCode.InternalServerError, new { Msg = ex.Message });
+            }
+
+        }
     }
 }

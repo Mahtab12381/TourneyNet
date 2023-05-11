@@ -20,7 +20,7 @@ namespace BLL.Services
 
             if (res)
             {
-                if (!extTokenAvailable)
+                if (extTokenAvailable==null)
                 {
                     var token = new Token();
                     token.User_id = username;
@@ -40,10 +40,14 @@ namespace BLL.Services
                 }
                 else
                 {
-
+                        var cfg = new MapperConfiguration(c =>
+                        {
+                            c.CreateMap<Token, TokenDTO>();
+                        });
+                        var mapper = new Mapper(cfg);
+                        var mapped = mapper.Map<TokenDTO>(extTokenAvailable);
+                        return mapped;
                 }
-              
-
             }
             return null;
         }

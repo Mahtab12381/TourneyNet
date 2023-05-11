@@ -8,21 +8,21 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class RegistrationRepo : Repo, IRepo<Registration, int, Registration>,IAuth<bool>
+    internal class RegistrationRepo : Repo, IRepo<Registration, int, Registration>,IAuth<Token>
     {
         public bool Authenticate(string username, string password)
         {
             var data = (from d in db.Registrations where d.UserName.Equals(username) && d.Password.Equals(password) select d).SingleOrDefault();
-            if(data != null ) return true;
+            if (data != null) return true;
             return false;
-            
         }
-        public bool HasExtToken(string Username)
+        public Token HasExtToken(string Username)
         {
-            var extToken = (from t in db.Tokens where t.User_id.Equals(Username) select t).SingleOrDefault();
-            if(extToken != null ) return true;
-            return false;
+            var extToken = (from t in db.Tokens where t.User_id.Equals(Username) && t.deleted_at == null select t).SingleOrDefault();
+            if (extToken != null) return extToken;
+            return null;
         }
+
 
         public Registration Create(Registration obj)
         {

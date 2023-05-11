@@ -466,3 +466,6 @@ C:\Users\dolon mim\Documents\GitHub\TourneyNet\TourneyNet\obj\Debug\TourneyNet.c
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\TourneyNet\obj\Debug\TourneyNet.csproj.CopyComplete
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\TourneyNet\obj\Debug\TourneyNet.dll
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\TourneyNet\obj\Debug\TourneyNet.pdb
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\TourneyNet\bin\System.Web.Cors.dll
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\TourneyNet\bin\System.Web.Http.Cors.dll
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\TourneyNet\bin\System.Web.Http.Cors.xml

@@ -71,7 +71,7 @@ namespace DAL
             return new PlayerGameRepo();
         }
 
-        public static IAuth<bool> AuthData()
+        public static IAuth<Token> AuthData()
         {
             return new RegistrationRepo();
         }
