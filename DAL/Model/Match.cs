@@ -15,7 +15,6 @@ namespace DAL.Model
         [Required]
         public int Tournament_id { get; set; }
         public int Match_number { get; set; }
-
         
         public DateTime Match_start_time { get; set; }
         public DateTime Match_end_time { get; set; }
@@ -25,9 +24,9 @@ namespace DAL.Model
         public int w_score { get; set; }
         public int l_score { get; set; }
 
-        [ForeignKey("Team")]
-        public int Team_Id { get; set; }
-        public virtual Team Team { get; set; }
+        [ForeignKey("Participant")]
+        public int participant_Id { get; set; }
+        public virtual Participant Participant { get; set; }
 
 
     }

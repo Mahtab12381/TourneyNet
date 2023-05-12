@@ -550,3 +550,6 @@ E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\TourneyNet\obj\Debug\TourneyNet
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\TourneyNet\obj\Debug\TourneyNet.csproj.CopyComplete
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\TourneyNet\obj\Debug\TourneyNet.dll
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\TourneyNet\obj\Debug\TourneyNet.pdb
+C:\Users\mahta\Desktop\new\TourneyNet\TourneyNet\bin\System.Web.Cors.dll
+C:\Users\mahta\Desktop\new\TourneyNet\TourneyNet\bin\System.Web.Http.Cors.dll
+C:\Users\mahta\Desktop\new\TourneyNet\TourneyNet\bin\System.Web.Http.Cors.xml

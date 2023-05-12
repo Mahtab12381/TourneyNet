@@ -18,9 +18,7 @@ namespace DAL.Model
         public int participant_id { get; set; }
         public virtual Participant Participant { get; set; }
 
+        public int tournament_id { get; set; }  
 
-        //[ForeignKey("Tournament")]
-        //public int T_Id { get; set; }
-        //public virtual Tournament Tournament { get; set; }
     }
 }

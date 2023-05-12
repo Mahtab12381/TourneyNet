@@ -18,27 +18,20 @@ namespace DAL.Model
         public DateTime end_date { get; set; }
         public DateTime registration_deadline   { get; set; }
         public string tournament_rules { get; set; }
+        public string Prize { get; set; }
+
         public virtual ICollection<Participant> Participants { get; set; }
 
-        //public Participant()
-        //{
-        //    Participants = new List<Participant>();
-        //}
+        [ForeignKey("Organizer")]
+        public int Organizer_Id { get; set; }
+        public virtual Organizer Organizer { get; set; }
 
-        [ForeignKey("Event")]
-        public int Event_Id { get; set; }
-        public virtual Event Event { get; set; }
+        public virtual ICollection<Ranking> Rankings { get; set; }
 
-
-
-        //public virtual ICollection<Ranking> Rankings { get; set; }
-
-        //public Tournament()
-        //{
-        //    Rankings = new List<Ranking>();
-        //}
-
-
-
+        public Tournament()
+        {
+            Rankings = new List<Ranking>();
+            Participants = new List<Participant>();
+        }
     }
 }

@@ -12,29 +12,19 @@ namespace DAL.Model
     {
         [Key]
         public int participant_id { get; set;}
-        public int tournament_id { get; set; }
-        public int player_id { get; set; }
+        
         public string team_name { get; set;}
         public string team_logo { get; set;}
 
-        public virtual ICollection<Payment> Payments { get; set; }
-
-        public Participant()
-        {
-            Payments = new List<Payment>();
-        }
-
-
-        public virtual ICollection<Ranking> Rankings { get; set; }
-
-        //public Participant()
-        //{
-        //    Rankings = new List<Ranking>();
-        //}
+        [ForeignKey("Team")]
+        public int team_id { get; set; }
+        public virtual Team Team { get; set; }
 
         [ForeignKey("Tournament")]
         public int Tournament_id { get; set; }
         public virtual Tournament Tournament { get; set; }
+
+       
 
 
 

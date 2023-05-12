@@ -7,13 +7,13 @@ namespace DAL.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class RangkingTournamentUpdated : IMigrationMetadata
+    public sealed partial class ur : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(RangkingTournamentUpdated));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ur));
         
         string IMigrationMetadata.Id
         {
-            get { return "202305120842448_RangkingTournamentUpdated"; }
+            get { return "202305121723210_ur"; }
         }
         
         string IMigrationMetadata.Source

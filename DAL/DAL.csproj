@@ -175,9 +175,13 @@
     <Compile Include="Migrations\202305120805167_PlayerGameUpdated.designer.cs">
       <DependentUpon>202305120805167_PlayerGameUpdated.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202305120842448_RangkingTournamentUpdated.cs" />
-    <Compile Include="Migrations\202305120842448_RangkingTournamentUpdated.designer.cs">
-      <DependentUpon>202305120842448_RangkingTournamentUpdated.cs</DependentUpon>
+    <Compile Include="Migrations\202305121723210_ur.cs" />
+    <Compile Include="Migrations\202305121723210_ur.designer.cs">
+      <DependentUpon>202305121723210_ur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305121731467_tournamentupdated.cs" />
+    <Compile Include="Migrations\202305121731467_tournamentupdated.designer.cs">
+      <DependentUpon>202305121731467_tournamentupdated.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Event.cs" />
@@ -313,8 +317,11 @@
     <EmbeddedResource Include="Migrations\202305120805167_PlayerGameUpdated.resx">
       <DependentUpon>202305120805167_PlayerGameUpdated.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305120842448_RangkingTournamentUpdated.resx">
-      <DependentUpon>202305120842448_RangkingTournamentUpdated.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305121723210_ur.resx">
+      <DependentUpon>202305121723210_ur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305121731467_tournamentupdated.resx">
+      <DependentUpon>202305121731467_tournamentupdated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
