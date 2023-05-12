@@ -12,7 +12,6 @@ namespace DAL.Model
     {
         [Key]
         public int share_id { get; set; }
-        public int event_id { get; set; }
 
         public DateTime share_date { get; set; }
 

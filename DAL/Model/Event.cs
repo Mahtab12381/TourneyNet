@@ -13,8 +13,6 @@ namespace DAL.Model
         [Key]
         public int event_id { get; set; }
 
-        public int organizer_id { get; set; }
-
         public string event_name { get; set; }
         public string event_description { get; set;}
 

@@ -12,7 +12,6 @@ namespace DAL.Model
     {
         [Key]
         public int Communication_id { get; set; }
-        public int Team_id { get; set; }
 
         [Required]
         public int Sender_id { get; set; }
