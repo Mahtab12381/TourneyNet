@@ -13,6 +13,5 @@ namespace DAL.Interfaces
         bool Delete(ID id);
         List<TYPE> Read();
         TYPE Read(ID id);       
-
     }
 }
