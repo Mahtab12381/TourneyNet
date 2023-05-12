@@ -35,7 +35,23 @@ namespace DAL.Model
        public Registration()
         {
             FanPost = new List<FanPost>();
+        
         }
+
+        public virtual ICollection<Fan> Fans { get; set; }
+
+        //public Registration()
+        //{
+        //    Fans = new List<Fan>();
+        //}
+
+
+        public virtual ICollection<Organizer> Organizers { get; set; }
+
+        //public Registration()
+        //{
+        //    Organizers = new List<Organizer>();
+        //}
 
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -28,5 +29,34 @@ namespace DAL.Model
         public string prizes { get; set; }
 
         public DateTime registration_deadline { get; set; }
+
+        public virtual ICollection<Stream> Streams { get; set; }
+
+        //public Event()
+        //{
+        //    Streams = new List<Stream>();
+        //}
+
+
+        public virtual ICollection<Tournament> Tournaments { get; set; }
+
+        //public Event1()
+        //{
+        //    Tournaments = new List<Tournament>();
+        //}
+
+        public virtual ICollection<SocialMediaSharing> SocialMediaSharings { get; set; }
+
+        //public Event2()
+        //{
+        //    SocialMediaSharings = new List<SocialMediaSharing>();
+        //}
+
+        [ForeignKey("Organizer")]
+        public int Organizer_Id { get; set; }
+        public virtual Organizer Organizer { get; set; }
+
+
+
     }
 }

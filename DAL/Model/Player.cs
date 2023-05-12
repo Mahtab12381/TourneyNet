@@ -14,5 +14,12 @@ namespace DAL.Model
         public string gender { get; set; }
         public string nationality { get; set; }
         public int age { get; set; }
+
+        public virtual ICollection<PlayerGame> PlayerGames { get; set; }
+
+        //public Player()
+        //{
+        //   PlayerGames = new List<PlayerGame>();
+        //}
     }
 }
