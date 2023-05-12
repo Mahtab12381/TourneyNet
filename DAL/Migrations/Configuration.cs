@@ -41,16 +41,7 @@
                 });
             }
 
-            for (int i = 1; i <= 20; i++)
-            {
-                context.FanPosts.AddOrUpdate(new Model.FanPost
-                {
-
-                    PostContent = "This is a fan post!" + i,
-                    PostDate = DateTime.Now,
-
-                });
-            }
+            
 
             for (int i = 1; i <= 20; i++)
             {
@@ -171,6 +162,7 @@
 
                 });
             }
+           
         }
     }
 }

@@ -46,6 +46,10 @@ namespace DAL
         {
             return new RegistrationRepo();
         }
+        public static IRegi<Registration,string> RegistrationData2()
+        {
+            return new RegistrationRepo();
+        }
 
         public static IRepo<Organizer, int, Organizer> OrganizerData()
         {
@@ -80,8 +84,6 @@ namespace DAL
         {
             return new TokenRepo();
         }
-
-
 
         public static IRepo<Team, int, Team> TeamData()
         {

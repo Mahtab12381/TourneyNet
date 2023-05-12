@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace DAL.Repos
 {
-    internal class RegistrationRepo : Repo, IRepo<Registration, int, Registration>,IAuth<Token>
+    internal class RegistrationRepo : Repo, IRepo<Registration, int, Registration>,IAuth<Token>,IRegi<Registration,string>
     {
         public bool Authenticate(string username, string password)
         {
@@ -54,6 +54,12 @@ namespace DAL.Repos
             db.Entry(exp).CurrentValues.SetValues(obj);
             if (db.SaveChanges() > 0) return obj;
             return null;
+        }
+
+        public Registration Read(string id)
+        {
+            var extreg=(from r in db.Registrations where r.UserName.Equals(id) select r).SingleOrDefault();
+            return extreg;
         }
     }
 }

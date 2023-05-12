@@ -30,5 +30,12 @@ namespace DAL.Model
         [StringLength(50)]
         public string Type { get; set; }
 
+        public virtual ICollection<FanPost> FanPost { get; set; }
+
+       public Registration()
+        {
+            FanPost = new List<FanPost>();
+        }
+
     }
 }

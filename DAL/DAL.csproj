@@ -53,6 +53,7 @@
   <ItemGroup>
     <Compile Include="DataAccessFactory.cs" />
     <Compile Include="Interfaces\IAuth.cs" />
+    <Compile Include="Interfaces\IRegi.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
     <Compile Include="Migrations\202304291606256_playerAdded.cs" />
     <Compile Include="Migrations\202304291606256_playerAdded.designer.cs">
@@ -109,6 +110,18 @@
     <Compile Include="Migrations\202305022309455_TableCreated.cs" />
     <Compile Include="Migrations\202305022309455_TableCreated.designer.cs">
       <DependentUpon>202305022309455_TableCreated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305111342425_typeadded.cs" />
+    <Compile Include="Migrations\202305111342425_typeadded.designer.cs">
+      <DependentUpon>202305111342425_typeadded.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305111735520_relationFanpost.cs" />
+    <Compile Include="Migrations\202305111735520_relationFanpost.designer.cs">
+      <DependentUpon>202305111735520_relationFanpost.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305111914325_tokenregidadded.cs" />
+    <Compile Include="Migrations\202305111914325_tokenregidadded.designer.cs">
+      <DependentUpon>202305111914325_tokenregidadded.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Event.cs" />
@@ -195,6 +208,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305022309455_TableCreated.resx">
       <DependentUpon>202305022309455_TableCreated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305111342425_typeadded.resx">
+      <DependentUpon>202305111342425_typeadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305111735520_relationFanpost.resx">
+      <DependentUpon>202305111735520_relationFanpost.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305111914325_tokenregidadded.resx">
+      <DependentUpon>202305111914325_tokenregidadded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

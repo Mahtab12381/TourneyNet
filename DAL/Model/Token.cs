@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -19,6 +20,10 @@ namespace DAL.Repos
 
         [Required]
         public string User_id { get; set; }
+
+        public string Type { get; set; } 
+
+        public int reg_id { get; set; } 
 
     }
 }

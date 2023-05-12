@@ -18,6 +18,7 @@ namespace BLL.Services
             var cfg = new MapperConfiguration(c =>
             {
                 c.CreateMap<FanPost, FanPostDTO>();
+                c.CreateMap<Registration, UserDTO>();
             });
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<List<FanPostDTO>>(data);

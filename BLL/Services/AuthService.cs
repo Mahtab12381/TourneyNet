@@ -17,7 +17,7 @@ namespace BLL.Services
         {
             var res= DataAccessFactory.AuthData().Authenticate(username,password);
             var extTokenAvailable = DataAccessFactory.AuthData().HasExtToken(username);
-
+            var extreg = DataAccessFactory.RegistrationData2().Read(username);
             if (res)
             {
                 if (extTokenAvailable==null)
@@ -26,6 +26,8 @@ namespace BLL.Services
                     token.User_id = username;
                     token.Created_at = DateTime.Now;
                     token.Token_key = Guid.NewGuid().ToString();
+                    token.Type=extreg.Type;
+                    token.reg_id = extreg.Id;
                     var ret = DataAccessFactory.TokenData().Create(token);
                     if (ret != null)
                     {
