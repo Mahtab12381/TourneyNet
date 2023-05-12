@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace DAL.Model
@@ -24,9 +25,11 @@ namespace DAL.Model
         public int Tournament_id { get; set; }
         public virtual Tournament Tournament { get; set; }
 
-       
-
-
+        public virtual ICollection<Match> Matches { get; set; }
+        public Participant()
+        {
+            Matches = new List<Match>();
+        }
 
     }
 }

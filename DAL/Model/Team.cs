@@ -22,19 +22,11 @@ namespace DAL.Model
         public int Player4_id { get; set; }
         public int Player5_id { get; set; }
 
-        public virtual ICollection<Match> Match { get; set; }
+       public virtual ICollection<TeamCommunication> TeamCommunications { get; set; }
 
-        //public Team()
-        //{
-        //    Matchs = new List<Match>();
-        //}
-
-
-        public virtual ICollection<TeamCommunication> TeamCommunications { get; set; }
-
-        //public Team1()
-        //{
-        //    TeamCommunications = new List<TeamCommunication>();
-        //}
+       public Team()
+        {
+           TeamCommunications = new List<TeamCommunication>();
+        }
     }
 }

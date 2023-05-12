@@ -183,6 +183,10 @@
     <Compile Include="Migrations\202305121731467_tournamentupdated.designer.cs">
       <DependentUpon>202305121731467_tournamentupdated.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305121803157_upr1.cs" />
+    <Compile Include="Migrations\202305121803157_upr1.designer.cs">
+      <DependentUpon>202305121803157_upr1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Fan.cs" />
@@ -322,6 +326,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305121731467_tournamentupdated.resx">
       <DependentUpon>202305121731467_tournamentupdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305121803157_upr1.resx">
+      <DependentUpon>202305121803157_upr1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

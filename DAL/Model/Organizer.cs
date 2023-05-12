@@ -15,12 +15,12 @@ namespace DAL.Model
         [Required]
         public string Organizer_Description { get; set; }
 
-        public virtual ICollection<Event> Events { get; set; }
+        public virtual ICollection<Tournament> Tournaments { get; set; }
 
-        //public Organizer()
-        //{
-        //    Events = new List<Event>();
-        //}
+        public Organizer()
+        {
+            Tournaments = new List<Tournament>();
+        }
 
         [ForeignKey("Registration")]
         public int Organizer_by { get; set; }

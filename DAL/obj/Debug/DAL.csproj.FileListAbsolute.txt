@@ -201,3 +201,4 @@ C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizeUpdat
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.PlayerGameUpdated.resources
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.ur.resources
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.tournamentupdated.resources
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.upr1.resources
