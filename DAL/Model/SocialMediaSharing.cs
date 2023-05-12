@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,5 +19,9 @@ namespace DAL.Model
         public string platform { get; set; }
 
         public string share_description  { get; set; }
+
+        [ForeignKey("Event")]
+        public int Event_Id { get; set; }
+        public virtual Event Event { get; set; }
     }
 }

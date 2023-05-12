@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,11 @@ namespace DAL.Model
         public int Match_loser_team_id { get; set; }
         public int w_score { get; set; }
         public int l_score { get; set; }
+
+        [ForeignKey("Team")]
+        public int Team_Id { get; set; }
+        public virtual Team Team { get; set; }
+
 
     }
 }

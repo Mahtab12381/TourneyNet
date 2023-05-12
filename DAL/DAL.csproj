@@ -123,6 +123,62 @@
     <Compile Include="Migrations\202305111914325_tokenregidadded.designer.cs">
       <DependentUpon>202305111914325_tokenregidadded.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305120613437_UpdatedRelations.cs" />
+    <Compile Include="Migrations\202305120613437_UpdatedRelations.designer.cs">
+      <DependentUpon>202305120613437_UpdatedRelations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120624318_Update12.cs" />
+    <Compile Include="Migrations\202305120624318_Update12.designer.cs">
+      <DependentUpon>202305120624318_Update12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120633382_fanRelation.cs" />
+    <Compile Include="Migrations\202305120633382_fanRelation.designer.cs">
+      <DependentUpon>202305120633382_fanRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120702492_RangRelation.cs" />
+    <Compile Include="Migrations\202305120702492_RangRelation.designer.cs">
+      <DependentUpon>202305120702492_RangRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120715566_TournanmentRelation.cs" />
+    <Compile Include="Migrations\202305120715566_TournanmentRelation.designer.cs">
+      <DependentUpon>202305120715566_TournanmentRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120725358_EventRelation.cs" />
+    <Compile Include="Migrations\202305120725358_EventRelation.designer.cs">
+      <DependentUpon>202305120725358_EventRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120731578_EventRelation12.cs" />
+    <Compile Include="Migrations\202305120731578_EventRelation12.designer.cs">
+      <DependentUpon>202305120731578_EventRelation12.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120739251_EventRelationwithSocial.cs" />
+    <Compile Include="Migrations\202305120739251_EventRelationwithSocial.designer.cs">
+      <DependentUpon>202305120739251_EventRelationwithSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120743391_EventOrgnizerRelatio.cs" />
+    <Compile Include="Migrations\202305120743391_EventOrgnizerRelatio.designer.cs">
+      <DependentUpon>202305120743391_EventOrgnizerRelatio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120749057_MatchTeamRelation.cs" />
+    <Compile Include="Migrations\202305120749057_MatchTeamRelation.designer.cs">
+      <DependentUpon>202305120749057_MatchTeamRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120753568_TEleTeamRelation.cs" />
+    <Compile Include="Migrations\202305120753568_TEleTeamRelation.designer.cs">
+      <DependentUpon>202305120753568_TEleTeamRelation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120800373_OrganizeUpdated.cs" />
+    <Compile Include="Migrations\202305120800373_OrganizeUpdated.designer.cs">
+      <DependentUpon>202305120800373_OrganizeUpdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120805167_PlayerGameUpdated.cs" />
+    <Compile Include="Migrations\202305120805167_PlayerGameUpdated.designer.cs">
+      <DependentUpon>202305120805167_PlayerGameUpdated.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305120842448_RangkingTournamentUpdated.cs" />
+    <Compile Include="Migrations\202305120842448_RangkingTournamentUpdated.designer.cs">
+      <DependentUpon>202305120842448_RangkingTournamentUpdated.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Fan.cs" />
@@ -217,6 +273,48 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305111914325_tokenregidadded.resx">
       <DependentUpon>202305111914325_tokenregidadded.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120613437_UpdatedRelations.resx">
+      <DependentUpon>202305120613437_UpdatedRelations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120624318_Update12.resx">
+      <DependentUpon>202305120624318_Update12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120633382_fanRelation.resx">
+      <DependentUpon>202305120633382_fanRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120702492_RangRelation.resx">
+      <DependentUpon>202305120702492_RangRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120715566_TournanmentRelation.resx">
+      <DependentUpon>202305120715566_TournanmentRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120725358_EventRelation.resx">
+      <DependentUpon>202305120725358_EventRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120731578_EventRelation12.resx">
+      <DependentUpon>202305120731578_EventRelation12.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120739251_EventRelationwithSocial.resx">
+      <DependentUpon>202305120739251_EventRelationwithSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120743391_EventOrgnizerRelatio.resx">
+      <DependentUpon>202305120743391_EventOrgnizerRelatio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120749057_MatchTeamRelation.resx">
+      <DependentUpon>202305120749057_MatchTeamRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120753568_TEleTeamRelation.resx">
+      <DependentUpon>202305120753568_TEleTeamRelation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120800373_OrganizeUpdated.resx">
+      <DependentUpon>202305120800373_OrganizeUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120805167_PlayerGameUpdated.resx">
+      <DependentUpon>202305120805167_PlayerGameUpdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305120842448_RangkingTournamentUpdated.resx">
+      <DependentUpon>202305120842448_RangkingTournamentUpdated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
