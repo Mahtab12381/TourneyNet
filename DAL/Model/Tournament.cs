@@ -31,7 +31,7 @@ namespace DAL.Model
 
 
 
-        public virtual ICollection<Ranking> Rankings { get; set; }
+        //public virtual ICollection<Ranking> Rankings { get; set; }
 
         //public Tournament()
         //{
