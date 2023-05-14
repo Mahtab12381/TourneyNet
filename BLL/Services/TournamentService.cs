@@ -18,21 +18,29 @@ namespace BLL.Services
             var cfg = new MapperConfiguration(c =>
             {
                 c.CreateMap<Tournament, TournamentDTO>();
+                c.CreateMap<Registration, UserDTO>();
             });
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<List<TournamentDTO>>(data);
             return mapped;
         }
 
-        public static TournamentDTO Get(int id)
+        public static TournamentsDetailsDTO Get(int id)
         {
             var data = DataAccessFactory.TournamentData().Read(id);
             var cfg = new MapperConfiguration(c =>
             {
                 c.CreateMap<Tournament, TournamentDTO>();
+                c.CreateMap<Tournament, TournamentsDetailsDTO>();
+              c.CreateMap<Registration, UserDTO>();
+              c.CreateMap<Participant, ParticipantDTO>();
+              c.CreateMap<Match, MatchDTO>();
+              c.CreateMap<Ranking, RankingDTO>();
+
+   
             });
             var mapper = new Mapper(cfg);
-            var mapped = mapper.Map<TournamentDTO>(data);
+            var mapped = mapper.Map<TournamentsDetailsDTO>(data);
             return mapped;
         }
 

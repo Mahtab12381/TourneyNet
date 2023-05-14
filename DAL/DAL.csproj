@@ -55,76 +55,19 @@
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRegi.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202304291606256_playerAdded.cs" />
-    <Compile Include="Migrations\202304291606256_playerAdded.designer.cs">
-      <DependentUpon>202304291606256_playerAdded.cs</DependentUpon>
+    <Compile Include="Migrations\202305130053379_addedTableall.cs" />
+    <Compile Include="Migrations\202305130053379_addedTableall.designer.cs">
+      <DependentUpon>202305130053379_addedTableall.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202304301047487_clear.cs" />
-    <Compile Include="Migrations\202304301047487_clear.designer.cs">
-      <DependentUpon>202304301047487_clear.cs</DependentUpon>
+    <Compile Include="Migrations\202305130125553_datatypechanged.cs" />
+    <Compile Include="Migrations\202305130125553_datatypechanged.designer.cs">
+      <DependentUpon>202305130125553_datatypechanged.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202304301425068_FanPost_Added.cs" />
-    <Compile Include="Migrations\202304301425068_FanPost_Added.designer.cs">
-      <DependentUpon>202304301425068_FanPost_Added.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304301556259_payment.cs" />
-    <Compile Include="Migrations\202304301556259_payment.designer.cs">
-      <DependentUpon>202304301556259_payment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304301943574_Ranking.cs" />
-    <Compile Include="Migrations\202304301943574_Ranking.designer.cs">
-      <DependentUpon>202304301943574_Ranking.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202304302230307_tournament.cs" />
-    <Compile Include="Migrations\202304302230307_tournament.designer.cs">
-      <DependentUpon>202304302230307_tournament.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305010041194_StreamTableCreated.cs" />
-    <Compile Include="Migrations\202305010041194_StreamTableCreated.designer.cs">
-      <DependentUpon>202305010041194_StreamTableCreated.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305010650486_RegistrationAdded.cs" />
-    <Compile Include="Migrations\202305010650486_RegistrationAdded.designer.cs">
-      <DependentUpon>202305010650486_RegistrationAdded.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305010821454_OrganizerTableAdded.cs" />
-    <Compile Include="Migrations\202305010821454_OrganizerTableAdded.designer.cs">
-      <DependentUpon>202305010821454_OrganizerTableAdded.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305011713548_even_part_sms_added.cs" />
-    <Compile Include="Migrations\202305011713548_even_part_sms_added.designer.cs">
-      <DependentUpon>202305011713548_even_part_sms_added.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305021840283_playergameAndToken.cs" />
-    <Compile Include="Migrations\202305021840283_playergameAndToken.designer.cs">
-      <DependentUpon>202305021840283_playergameAndToken.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305021853192_playergames.cs" />
-    <Compile Include="Migrations\202305021853192_playergames.designer.cs">
-      <DependentUpon>202305021853192_playergames.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305021912141_playergameAndToken1.cs" />
-    <Compile Include="Migrations\202305021912141_playergameAndToken1.designer.cs">
-      <DependentUpon>202305021912141_playergameAndToken1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305022309455_TableCreated.cs" />
-    <Compile Include="Migrations\202305022309455_TableCreated.designer.cs">
-      <DependentUpon>202305022309455_TableCreated.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305111342425_typeadded.cs" />
-    <Compile Include="Migrations\202305111342425_typeadded.designer.cs">
-      <DependentUpon>202305111342425_typeadded.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305111735520_relationFanpost.cs" />
-    <Compile Include="Migrations\202305111735520_relationFanpost.designer.cs">
-      <DependentUpon>202305111735520_relationFanpost.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202305111914325_tokenregidadded.cs" />
-    <Compile Include="Migrations\202305111914325_tokenregidadded.designer.cs">
-      <DependentUpon>202305111914325_tokenregidadded.cs</DependentUpon>
+    <Compile Include="Migrations\202305130135466_rankingupdated.cs" />
+    <Compile Include="Migrations\202305130135466_rankingupdated.designer.cs">
+      <DependentUpon>202305130135466_rankingupdated.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\FanPost.cs" />
     <Compile Include="Model\Match.cs" />
@@ -141,7 +84,6 @@
     <Compile Include="Model\TeamCommunication.cs" />
     <Compile Include="Model\Token.cs" />
     <Compile Include="Model\Tournament.cs" />
-    <Compile Include="Repos\EventRepo.cs" />
     <Compile Include="Repos\FanPostRepo.cs" />
     <Compile Include="Repos\FanRepo.cs" />
     <Compile Include="Repos\MatchRepo.cs" />
@@ -159,7 +101,7 @@
     <Compile Include="Repos\TeamRepo.cs" />
     <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\TournamentRepo.cs" />
-    <Compile Include="TourneyNetDbContext.cs" />
+    <Compile Include="Context_DB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -167,56 +109,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202304291606256_playerAdded.resx">
-      <DependentUpon>202304291606256_playerAdded.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305130053379_addedTableall.resx">
+      <DependentUpon>202305130053379_addedTableall.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304301047487_clear.resx">
-      <DependentUpon>202304301047487_clear.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305130125553_datatypechanged.resx">
+      <DependentUpon>202305130125553_datatypechanged.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304301425068_FanPost_Added.resx">
-      <DependentUpon>202304301425068_FanPost_Added.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304301556259_payment.resx">
-      <DependentUpon>202304301556259_payment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304301943574_Ranking.resx">
-      <DependentUpon>202304301943574_Ranking.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202304302230307_tournament.resx">
-      <DependentUpon>202304302230307_tournament.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305010041194_StreamTableCreated.resx">
-      <DependentUpon>202305010041194_StreamTableCreated.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305010650486_RegistrationAdded.resx">
-      <DependentUpon>202305010650486_RegistrationAdded.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305010821454_OrganizerTableAdded.resx">
-      <DependentUpon>202305010821454_OrganizerTableAdded.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305011713548_even_part_sms_added.resx">
-      <DependentUpon>202305011713548_even_part_sms_added.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305021840283_playergameAndToken.resx">
-      <DependentUpon>202305021840283_playergameAndToken.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305021853192_playergames.resx">
-      <DependentUpon>202305021853192_playergames.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305021912141_playergameAndToken1.resx">
-      <DependentUpon>202305021912141_playergameAndToken1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305022309455_TableCreated.resx">
-      <DependentUpon>202305022309455_TableCreated.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305111342425_typeadded.resx">
-      <DependentUpon>202305111342425_typeadded.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305111735520_relationFanpost.resx">
-      <DependentUpon>202305111735520_relationFanpost.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202305111914325_tokenregidadded.resx">
-      <DependentUpon>202305111914325_tokenregidadded.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305130135466_rankingupdated.resx">
+      <DependentUpon>202305130135466_rankingupdated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

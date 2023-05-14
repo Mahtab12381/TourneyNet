@@ -82,3 +82,17 @@ C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.csproj.CoreComp
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.csproj.CopyComplete
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.dll
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\BLL\obj\Debug\BLL.pdb
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\BLL.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\BLL.pdb
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\AutoMapper.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\DAL.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\EntityFramework.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\DAL.pdb
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\DAL.dll.config
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\AutoMapper.xml
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\bin\Debug\EntityFramework.xml
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\obj\Debug\BLL.csproj.CopyComplete
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\obj\Debug\BLL.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\BLL\obj\Debug\BLL.pdb

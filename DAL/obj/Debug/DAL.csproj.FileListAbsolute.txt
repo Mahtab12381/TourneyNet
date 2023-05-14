@@ -34,8 +34,6 @@ C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.dl
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\EntityFramework.xml
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.playerAdded.resources
-C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.dll
@@ -126,3 +124,51 @@ D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.TableCrea
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.typeadded.resources
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.relationFanpost.resources
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.tokenregidadded.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\DAL.dll.config
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\DAL.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\DAL.pdb
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\EntityFramework.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\EntityFramework.xml
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.xml
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.playerAdded.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.clear.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.FanPost_Added.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.payment.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.Ranking.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.tournament.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.StreamTableCreated.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.RegistrationAdded.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.even_part_sms_added.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergames.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken1.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.TableCreated.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.typeadded.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.relationFanpost.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.tokenregidadded.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.dll
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.pdb
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.UpdatedRelations.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.Update12.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.fanRelation.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.RangRelation.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.TournanmentRelation.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.EventRelation.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.EventRelation12.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.EventRelationwithSocial.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.EventOrgnizerRelatio.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.MatchTeamRelation.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.TEleTeamRelation.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizeUpdated.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.PlayerGameUpdated.resources
+E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.RangkingTournamentUpdated.resources
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.addedTableall.resources
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.datatypechanged.resources
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.rankingupdated.resources

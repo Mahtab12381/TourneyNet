@@ -56,11 +56,6 @@ namespace DAL
             return new OrganizerRepo();
         }
 
-
-        public static IRepo<Event, int, Event> EventData()
-        {
-            return new EventRepo();
-        }
         public static IRepo<Participant, int, Participant> ParticipantData()
         {
             return new ParticipantRepo();

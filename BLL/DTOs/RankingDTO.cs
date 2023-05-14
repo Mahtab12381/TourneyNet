@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DAL.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,14 @@ namespace BLL.DTOs
     public class RankingDTO
     {
         public int ranking_id { get; set; }
-        public int rank { get; set; }
+
+        public int Match_palyed { get; set; }
+        public int Match_lost { get; set; }
+        public int Match_won { get; set; }
+        public int Total_point { get; set; }
+
+
+        public int participant_id { get; set; }
+        public int tournament_id { get; set; }
     }
 }

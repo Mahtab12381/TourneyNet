@@ -15,5 +15,14 @@ namespace BLL.DTOs
         public DateTime end_date { get; set; }
         public DateTime registration_deadline { get; set; }
         public string tournament_rules { get; set; }
+        public string Prize { get; set; }
+        public int Organizer_Id { get; set; }
+
+        public UserDTO Registration { get; set; }
+
+
+
+
+
     }
 }
