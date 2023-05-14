@@ -8,9 +8,9 @@ namespace DAL.Repos
 {
     internal class Repo
     {
-        internal TourneyNetDbContext db;
+        internal Context_DB db;
         internal Repo(){
-            db = new TourneyNetDbContext();
+            db = new Context_DB();
             }
     }
 }

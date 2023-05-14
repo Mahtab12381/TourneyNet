@@ -5,14 +5,14 @@
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<DAL.TourneyNetDbContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<DAL.Context_DB>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(DAL.TourneyNetDbContext context)
+        protected override void Seed(DAL.Context_DB context)
         {
             //  This method will be called after migrating to the latest version.
 

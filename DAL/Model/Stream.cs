@@ -16,11 +16,5 @@ namespace DAL.Model
         public string Stream_link { get; set; }
         public string Stream_description { get; set; }
 
-        [ForeignKey("Event")]
-        public int event_id { get; set; }
-        public virtual Event Event { get; set; }
-
-
-
     }
 }

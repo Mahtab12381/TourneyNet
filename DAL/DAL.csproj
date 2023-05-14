@@ -55,12 +55,19 @@
     <Compile Include="Interfaces\IAuth.cs" />
     <Compile Include="Interfaces\IRegi.cs" />
     <Compile Include="Interfaces\IRepo.cs" />
-    <Compile Include="Migrations\202305121838369_database.cs" />
-    <Compile Include="Migrations\202305121838369_database.designer.cs">
-      <DependentUpon>202305121838369_database.cs</DependentUpon>
+    <Compile Include="Migrations\202305130053379_addedTableall.cs" />
+    <Compile Include="Migrations\202305130053379_addedTableall.designer.cs">
+      <DependentUpon>202305130053379_addedTableall.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305130125553_datatypechanged.cs" />
+    <Compile Include="Migrations\202305130125553_datatypechanged.designer.cs">
+      <DependentUpon>202305130125553_datatypechanged.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305130135466_rankingupdated.cs" />
+    <Compile Include="Migrations\202305130135466_rankingupdated.designer.cs">
+      <DependentUpon>202305130135466_rankingupdated.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Model\Event.cs" />
     <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\FanPost.cs" />
     <Compile Include="Model\Match.cs" />
@@ -77,7 +84,6 @@
     <Compile Include="Model\TeamCommunication.cs" />
     <Compile Include="Model\Token.cs" />
     <Compile Include="Model\Tournament.cs" />
-    <Compile Include="Repos\EventRepo.cs" />
     <Compile Include="Repos\FanPostRepo.cs" />
     <Compile Include="Repos\FanRepo.cs" />
     <Compile Include="Repos\MatchRepo.cs" />
@@ -95,7 +101,7 @@
     <Compile Include="Repos\TeamRepo.cs" />
     <Compile Include="Repos\TokenRepo.cs" />
     <Compile Include="Repos\TournamentRepo.cs" />
-    <Compile Include="TourneyNetDbContext.cs" />
+    <Compile Include="Context_DB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -103,8 +109,14 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202305121838369_database.resx">
-      <DependentUpon>202305121838369_database.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202305130053379_addedTableall.resx">
+      <DependentUpon>202305130053379_addedTableall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305130125553_datatypechanged.resx">
+      <DependentUpon>202305130125553_datatypechanged.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305130135466_rankingupdated.resx">
+      <DependentUpon>202305130135466_rankingupdated.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

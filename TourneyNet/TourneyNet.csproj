@@ -100,7 +100,6 @@
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Auth\Logged.cs" />
     <Compile Include="Controllers\AuthController.cs" />
-    <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\FanController.cs" />
     <Compile Include="Controllers\FanPostController.cs" />
     <Compile Include="Controllers\MatchController.cs" />

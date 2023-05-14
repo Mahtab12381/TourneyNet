@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DAL
 {
-    public class TourneyNetDbContext:DbContext
+    public class Context_DB:DbContext
     {
         public DbSet<Player> Players { get; set; }
         public DbSet<Fan> Fans { get; set; }
@@ -22,12 +22,8 @@ namespace DAL
         public DbSet<Stream> Streams { get; set; }
         public DbSet<Organizer> Organizers { get; set; }
         public DbSet<SocialMediaSharing> SocialMediaSharings { get; set; }
-        public DbSet<Event> Events { get; set; }
-
         public DbSet<PlayerGame> PlayerGames { get; set; }
-        public DbSet<Token> Tokens { get; set; }
-
-        
+        public DbSet<Token> Tokens { get; set; } 
         public DbSet<Team> Teams { get; set; }
         public DbSet<TeamCommunication> TeamCommunications { get; set; }
         public DbSet<Match> Matches { get; set; }

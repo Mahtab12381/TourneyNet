@@ -18,9 +18,5 @@ namespace DAL.Model
         public string platform { get; set; }
 
         public string share_description  { get; set; }
-
-        [ForeignKey("Event")]
-        public int Event_Id { get; set; }
-        public virtual Event Event { get; set; }
     }
 }

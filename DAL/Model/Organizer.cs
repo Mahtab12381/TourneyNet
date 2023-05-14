@@ -23,7 +23,7 @@ namespace DAL.Model
         }
 
         [ForeignKey("Registration")]
-        public int Organizer_by { get; set; }
+        public int Organizer_reg_id { get; set; }
         public virtual Registration Registration { get; set; }
     }
 }

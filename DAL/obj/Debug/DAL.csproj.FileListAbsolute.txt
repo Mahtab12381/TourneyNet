@@ -168,5 +168,7 @@ E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.TE
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizeUpdated.resources
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.PlayerGameUpdated.resources
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\obj\Debug\DAL.Migrations.RangkingTournamentUpdated.resources
-C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.database.resources
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.addedTableall.resources
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.datatypechanged.resources
+C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.rankingupdated.resources
