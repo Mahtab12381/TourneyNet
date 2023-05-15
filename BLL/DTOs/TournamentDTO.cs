@@ -20,9 +20,5 @@ namespace BLL.DTOs
 
         public UserDTO Registration { get; set; }
 
-
-
-
-
     }
 }

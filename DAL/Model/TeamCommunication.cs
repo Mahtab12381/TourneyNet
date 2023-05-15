@@ -12,12 +12,9 @@ namespace DAL.Model
     {
         [Key]
         public int Communication_id { get; set; }
-
         [Required]
         public int Sender_id { get; set; }
-
         [Required]
-        public int Receiver_id { get; set; }
         public string Message { get; set; }
         public DateTime Timestamp { get; set; }
 

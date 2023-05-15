@@ -16,8 +16,9 @@ namespace BLL.DTOs
         public int Match_won { get; set; }
         public int Total_point { get; set; }
 
-
         public int participant_id { get; set; }
         public int tournament_id { get; set; }
+
+        public string team_name { get; set; }
     }
 }

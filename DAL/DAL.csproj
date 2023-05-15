@@ -67,6 +67,18 @@
     <Compile Include="Migrations\202305130135466_rankingupdated.designer.cs">
       <DependentUpon>202305130135466_rankingupdated.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202305141717502_teamCommunication.cs" />
+    <Compile Include="Migrations\202305141717502_teamCommunication.designer.cs">
+      <DependentUpon>202305141717502_teamCommunication.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305142251566_match.cs" />
+    <Compile Include="Migrations\202305142251566_match.designer.cs">
+      <DependentUpon>202305142251566_match.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202305142350401_teamnameadded.cs" />
+    <Compile Include="Migrations\202305142350401_teamnameadded.designer.cs">
+      <DependentUpon>202305142350401_teamnameadded.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\Fan.cs" />
     <Compile Include="Model\FanPost.cs" />
@@ -117,6 +129,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202305130135466_rankingupdated.resx">
       <DependentUpon>202305130135466_rankingupdated.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305141717502_teamCommunication.resx">
+      <DependentUpon>202305141717502_teamCommunication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305142251566_match.resx">
+      <DependentUpon>202305142251566_match.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202305142350401_teamnameadded.resx">
+      <DependentUpon>202305142350401_teamnameadded.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

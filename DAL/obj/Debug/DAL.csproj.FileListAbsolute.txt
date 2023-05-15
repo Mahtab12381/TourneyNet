@@ -20,7 +20,6 @@ D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServe
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\EntityFramework.xml
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\bin\Debug\EntityFramework.SqlServer.xml
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.playerAdded.resources
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
 D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.csproj.CopyComplete
@@ -99,20 +98,8 @@ E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.tournament.resources
 E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.StreamTableCreated.resources
 E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.RegistrationAdded.resources
 E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.clear.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.FanPost_Added.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.payment.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.Ranking.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.tournament.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.StreamTableCreated.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.RegistrationAdded.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.even_part_sms_added.resources
 E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.even_part_sms_added.resources
 E:\.NET PROJECT\TourneyNet\DAL\obj\Debug\DAL.Migrations.PlayerGameAdded.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergames.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken1.resources
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.RegistrationAdded.resources
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.OrganizerTableAdded.resources
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.even_part_sms_added.resources
@@ -120,10 +107,6 @@ C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.play
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergames.resources
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.playergameAndToken1.resources
 C:\Users\dolon mim\Documents\GitHub\TourneyNet\DAL\obj\Debug\DAL.Migrations.TableCreated.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.TableCreated.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.typeadded.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.relationFanpost.resources
-D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.tokenregidadded.resources
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\DAL.dll.config
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\DAL.dll
 E:\.NET PROJECT\TourneyNet\TourneyNet\TourneyNet\DAL\bin\Debug\DAL.pdb
@@ -172,3 +155,9 @@ C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.addedTableall
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.datatypechanged.resources
 C:\Users\mahta\Desktop\new\TourneyNet\DAL\obj\Debug\DAL.Migrations.rankingupdated.resources
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.addedTableall.resources
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.datatypechanged.resources
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.rankingupdated.resources
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.teamCommunication.resources
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.match.resources
+D:\Aiub\spring  22-23\Asp .NET\TourneyNet\DAL\obj\Debug\DAL.Migrations.teamnameadded.resources
