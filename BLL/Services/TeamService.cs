@@ -29,6 +29,8 @@ namespace BLL.Services
             var cfg = new MapperConfiguration(c =>
             {
                 c.CreateMap<Team, TeamDTO>();
+         
+                c.CreateMap<TeamCommunication,TeamCommunicationDTO>();
             });
             var mapper = new Mapper(cfg);
             var mapped = mapper.Map<TeamDTO>(data);

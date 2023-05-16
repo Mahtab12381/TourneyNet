@@ -21,5 +21,7 @@ namespace BLL.DTOs
         public int Player4_id { get; set; }
         public int Player5_id { get; set; }
 
+        
+
     }
 }
